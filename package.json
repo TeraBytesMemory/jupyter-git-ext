@@ -1,0 +1,54 @@
+{
+  "name": "jupyter-git-ext",
+  "version": "0.0.1",
+  "description": "Enable your jupyter notebook to operate git",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/webpack/bin/webpack.js",
+    "build:watch": "./node_modules/webpack/bin/webpack.js --watch",
+    "build:develop": "NODE_ENV=develop ./node_modules/webpack/bin/webpack.js",
+    "build:watch:develop": "NODE_ENV=develop ./node_modules/webpack/bin/webpack.js --watch"
+  },
+  "author": "Yujiro Terazawa (TeraBytesMemory)",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^8.0.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.1",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "css-loader": "^0.28.9",
+    "eslint": "^4.15.0",
+    "eslint-config-vue": "^2.0.2",
+    "eslint-plugin-flowtype": "^2.41.0",
+    "eslint-plugin-vue": "^4.2.0",
+    "node-sass": "^4.7.2",
+    "post-loader": "^2.0.0",
+    "postcss": "^6.0.19",
+    "sass-loader": "^6.0.6",
+    "sugarss": "^1.0.1",
+    "vue-loader": "^14.0.3",
+    "vue-template-compiler": "^2.5.13",
+    "webpack": "^3.10.0"
+  },
+  "dependencies": {
+    "animate-sass": "^0.8.2",
+    "axios": "^0.17.1",
+    "lodash": "^4.17.4",
+    "vue": "^2.5.13"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TeraBytesMemory/jupyter-git-ext.git"
+  },
+  "keywords": [
+    "jupyter",
+    "git"
+  ],
+  "bugs": {
+    "url": "https://github.com/TeraBytesMemory/jupyter-git-ext/issues"
+  },
+  "homepage": "https://github.com/TeraBytesMemory/jupyter-git-ext#readme"
+}

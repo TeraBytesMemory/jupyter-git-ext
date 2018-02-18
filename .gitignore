@@ -200,4 +200,5 @@ typings/
 # next.js build output
 .next
 
-
+# built files
+git_ext/static/index.js
